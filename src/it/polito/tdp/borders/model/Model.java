@@ -15,7 +15,8 @@ import org.jgrapht.graph.SimpleGraph;
 import it.polito.tdp.borders.db.BordersDAO;
 
 public class Model {
-	private Simulatore sim;
+	private Simulatore sim; // Lo devo creare qui perche' mi serve all'interno di due metodi diversi
+							// non posso crearne due perche' ovviamente avrei dei dati diversi 
 
 	private Graph<Country, DefaultEdge> graph ;
 	private List<Country> countries ;
